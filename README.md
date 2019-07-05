@@ -1,22 +1,11 @@
-# [loveBook](https://github.com/saucxs/loveBook)
-[![](https://img.shields.io/badge/Powered%20by-saucxs%20-brightgreen.svg)](https://github.com/saucxs/loveBook)
-[![GitHub license](https://img.shields.io/github/license/saucxs/loveBook.svg)](https://github.com/saucxs/loveBook/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/saucxs/loveBook.svg)](https://github.com/saucxs/loveBook/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/saucxs/loveBook.svg)](https://github.com/saucxs/loveBook/network)
-[![GitHub issues](https://img.shields.io/github/issues/saucxs/loveBook.svg)](https://github.com/saucxs/loveBook/issues)
-
-loveBook爱上阅读，是一款webapp的读小说等书籍的并且阅读的应用。如果觉得可以，欢迎fork和star。
-自己最近在追斗破苍穹电视剧，下班时候在地铁上总听到有人说，斗破苍穹书籍比电视剧好看，于是想弄个看书的webapp，
-这样在手机上看电子书很爽。找了好久发现发现只有追书神器的api暴露出来了，起点之类的api找不到。
+这是一款webapp书籍阅读应用。
+使用追书神器的api。
 
 ### 技术栈
-vue2 + vuex + vue-router + webpack + ES6 + axios + sass
+vue2 + vuex + vue-router + webpack + ES6 + axios + sass + element
 
 ### 源码地址
-[https://github.com/saucxs/loveBook](https://github.com/saucxs/loveBook) 
-
-### 演示地址
-[线上地址](http://book.mwcxs.top) 
+[https://github.com/yangyongjiandty/loveBook](https://github.com/yangyongjiandty/loveBook) 
 
 ### 版本功能
 - [x] 热门模块-男生热门，女生热门，女频限免三部分
@@ -29,20 +18,6 @@ vue2 + vuex + vue-router + webpack + ES6 + axios + sass
 - [x] 书架模块-包含加入到书架展示，以及上次阅读地方存储
 - [x] 搜索模块-包含热搜的内容和历史搜索内容，以及清空历史搜索内容
 
-+ 2018.10.17
-   - 完成热门模块
-   - 完成类别列表
-   - 完成书籍详情
-+ 2018.10.21
-    - 完成分类模块
-    - 完成章节目录
-    - 完成阅读模块
-+ 2018.10.24
-    - 完成书架模块
-+ 2018.10.25
-    - 完成模糊搜索功能
-    - 清空搜索历史功能
-    - 修复bug：部署之后阅读章节返回的错误
 
 ### 项目运行
 
@@ -57,19 +32,3 @@ npm run dev（本地运行 访问：http://localhost:8083）
 
 npm run build （部署上线 生成的dist文件夹放到服务器中即可：需要配置代理，如使用nginx，可参考下面问题中的配置）
 ```
-
-### 项目截图
-![热门模块](screenshot/photo2_featured.png)
-![分类模块](screenshot/photo4_category.png)
-![书籍详情模块](screenshot/photo3_book_detail.png)
-![阅读模块](screenshot/photo3_reading_now.png)
-![书架模块](screenshot/photo5_book_shelf.png)
-![搜索模块-1](screenshot/photo5_search_before.png)
-
-等等
-
-### 说明 
-
-【1】loveBook基于[structure_webApp](https://github.com/saucxs/structure_webApp)架构上进行添加业务逻辑。
-
-【2】使用cordova封装了混合androidApp-[loveBook](https://github.com/saucxs/loveBookApp)，基于这个项目应用的封装。

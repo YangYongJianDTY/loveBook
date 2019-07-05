@@ -23,7 +23,7 @@ export default {
   },
   data () {
     return {
-      headerTitle: '分类',
+      headerTitle: '书库',
       categories: []
     }
   },

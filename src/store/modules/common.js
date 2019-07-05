@@ -1,7 +1,7 @@
 import { HEADER_TITLE } from "../mutation-types";
 
 const state = {
-  systemName: 'loveBook',
+  systemName: '书籍阅读',
   headerTitle: '',
 }
 

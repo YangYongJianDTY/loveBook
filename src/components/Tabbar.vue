@@ -6,7 +6,7 @@
     </router-link>
     <router-link :to="{ name: 'category' }" class="tab-item" exact>
       <i class="el-icon-menu"></i>
-      <p class="tab-item-label">分类</p>
+      <p class="tab-item-label">书库</p>
     </router-link>
     <!--<router-link :to="{ name: 'rank' }" class="tab-item" exact>-->
       <!--<i class="el-icon-tickets"></i>-->
@@ -14,7 +14,7 @@
     <!--</router-link>-->
     <router-link :to="{ name: 'featured' }" class="tab-item" exact>
       <i class="el-icon-mobile-phone"></i>
-      <p class="tab-item-label">热门</p>
+      <p class="tab-item-label">推送</p>
     </router-link>
 
   </section>

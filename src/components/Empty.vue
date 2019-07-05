@@ -5,7 +5,7 @@
         <use xlink:href="#icon-add_shelf"></use>
       </svg>
     </div>
-    <p class="empty-notice">欢迎来到loveBook</p>
+    <p class="empty-notice">欢迎来到书籍阅读系统</p>
   </section>
 </template>
 

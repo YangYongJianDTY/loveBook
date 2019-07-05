@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <h2 class="header-logo">{{systemName}}--{{headerTitle}}</h2>
+    <h2 class="header-logo">{{systemName}} > {{headerTitle}}</h2>
     <div class="header-search">
       <router-link :to="{ name: 'search' }">
         <i class="el-icon-search"></i>
